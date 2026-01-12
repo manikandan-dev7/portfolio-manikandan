@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from './components/Header'
-
+import Resume from './components/Resume'
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header />
+      <Resume />
     </>
   )
 }
