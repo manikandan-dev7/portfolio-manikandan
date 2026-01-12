@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from './components/Header'
-import Resume from './components/Resume'
+import React from "react";
+import Header from "./components/Header";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Header />
       <Resume />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
