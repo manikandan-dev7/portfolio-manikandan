@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="min-h-screen bg-gradient-to-b from-white to-gray-100 py-16 px-4"
+      className="min-h-screen bg-gradient-to-b from-white to-gray-100 py-8 px-4"
     >
       <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 items-start">
         <div className="md:col-span-1 flex flex-col items-center md:items-start space-y-4 animate-fadeInUp">
@@ -17,10 +17,10 @@ const Resume = () => {
             className="w-40 h-40 rounded-full shadow-lg border-4 border-white -mt-16"
           />
           <h2 className="text-2xl font-bold">Manikandan</h2>
-          <p className="text-indigo-600 font-semibold">
+          <p className="text-black font-semibold">
             Aspiring MERN Stack Developer
           </p>
-          <p className="text-gray-600">
+          <p className="text-black">
             Hi — I'm an aspiring MERN stack developer building full-stack
             applications using MongoDB, Express, React and Node. I enjoy
             crafting interactive UIs, improving performance and exploring
@@ -48,10 +48,10 @@ const Resume = () => {
 
             <div>
               <h4 className="font-semibold">Experience</h4>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-black">
                 Frontend Developer Intern — Company · Jun 2024 - Aug 2024
               </p>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-black">
                 Worked on React components, implemented responsive UI and
                 improved bundle size.
               </p>
@@ -59,7 +59,7 @@ const Resume = () => {
 
             <div className="mt-4">
               <h4 className="font-semibold">Education</h4>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-black">
                 B.Sc. in Computer Science — University Name · 2020 - 2024
               </p>
             </div>
@@ -67,14 +67,22 @@ const Resume = () => {
             <div className="mt-4">
               <h4 className="font-semibold">Skills</h4>
               <div className="flex flex-wrap gap-2 mt-2">
-                <span className="px-3 py-1 bg-gray-100 rounded">React</span>
-                <span className="px-3 py-1 bg-gray-100 rounded">Node.js</span>
-                <span className="px-3 py-1 bg-gray-100 rounded">Express</span>
-                <span className="px-3 py-1 bg-gray-100 rounded">MongoDB</span>
-                <span className="px-3 py-1 bg-gray-100 rounded">
+                <span className="px-3 py-1 bg-gray-100 text-black rounded">
+                  React
+                </span>
+                <span className="px-3 py-1 bg-gray-100 text-black rounded">
+                  Node.js
+                </span>
+                <span className="px-3 py-1 bg-gray-100 text-black rounded">
+                  Express
+                </span>
+                <span className="px-3 py-1 bg-gray-100 text-black rounded">
+                  MongoDB
+                </span>
+                <span className="px-3 py-1 bg-gray-100 text-black rounded">
                   Tailwind CSS
                 </span>
-                <span className="px-3 py-1 bg-gray-100 rounded">
+                <span className="px-3 py-1 bg-gray-100 text-black rounded">
                   JavaScript
                 </span>
               </div>
@@ -90,7 +98,7 @@ const Resume = () => {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-4 border rounded hover:shadow-lg transition">
                 <h4 className="font-semibold">Project One</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-black">
                   A MERN app that does X. Built with React, Node and MongoDB.
                 </p>
                 <a href="#" className="text-indigo-600 mt-2 inline-block">
@@ -100,7 +108,7 @@ const Resume = () => {
 
               <div className="p-4 border rounded hover:shadow-lg transition">
                 <h4 className="font-semibold">Project Two</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-black">
                   A full-stack dashboard with authentication and real-time
                   updates.
                 </p>
@@ -111,7 +119,7 @@ const Resume = () => {
 
               <div className="p-4 border rounded hover:shadow-lg transition">
                 <h4 className="font-semibold">Project Three</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-black">
                   An AI-powered utility built with Node and external APIs.
                 </p>
                 <a href="#" className="text-indigo-600 mt-2 inline-block">
@@ -121,7 +129,7 @@ const Resume = () => {
 
               <div className="p-4 border rounded hover:shadow-lg transition">
                 <h4 className="font-semibold">Add More</h4>
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-black">
                   Add your projects here — link to GitHub or live demo.
                 </p>
                 <a href="#" className="text-indigo-600 mt-2 inline-block">
@@ -130,7 +138,7 @@ const Resume = () => {
               </div>
             </div>
 
-            <p className="mt-4 text-gray-500">
+            <p className="mt-4 text-black">
               Tip: replace project placeholders with real links and screenshots
               for a stronger portfolio.
             </p>
@@ -141,7 +149,7 @@ const Resume = () => {
             className="bg-white p-6 rounded-lg shadow animate-fadeInUp"
           >
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
-            <p className="text-gray-600">
+            <p className="text-black">
               I'm open to collaboration and opportunities — reach out via email.
             </p>
             <a

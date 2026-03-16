@@ -2,35 +2,34 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="relative min-h-screen">
-      <div className="absolute z-20 flex items-center justify-between top-6 left-6 right-6">
-        <div className="text-lg font-bold text-white">Manikandan</div>
+    <header className="fixed top-0 left-0 right-0 z-40 bg-white/90 dark:bg-gray-900/70 backdrop-blur-sm h-16">
+      <div className="max-w-6xl mx-auto px-6 h-full flex items-center justify-between">
+        <div className="text-lg font-bold">
+          <a href="/" className="text-black hover:text-indigo-600 transition">
+            Manikandan
+          </a>
+        </div>
+
         <nav className="space-x-4">
           <a
-            href="#resume"
-            className="text-white transition hover:text-indigo-200"
+            href="/resume"
+            className="text-black transition hover:text-indigo-600"
           >
             Resume
           </a>
           <a
-            href="#projects"
-            className="text-white transition hover:text-indigo-200"
+            href="/#projects"
+            className="text-black transition hover:text-indigo-600"
           >
             Projects
           </a>
           <a
-            href="#contact"
-            className="text-white transition hover:text-indigo-200"
+            href="/contact"
+            className="text-black transition hover:text-indigo-600"
           >
             Contact
           </a>
         </nav>
-      </div>
-
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-indigo-800 via-indigo-600 to-indigo-300">
-        {/* Decorative blobs */}
-        <div className="absolute rounded-full -left-24 -top-24 w-96 h-96 bg-gradient-to-br from-purple-400 via-pink-400 to-yellow-300 opacity-60 filter blur-3xl animate-float" />
-        <div className="absolute rounded-full right-8 bottom-10 w-60 h-60 bg-white/10 backdrop-blur-md" />
       </div>
     </header>
   );
